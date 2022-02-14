@@ -65,6 +65,40 @@ class SpiderSession:
     def set_cookies(self, cookies):
         self.session.cookies.update(cookies)
 
+
+
+
+        self.session.cookies.set('mid', 'GAlkoM1TuzMxNuR2uQfn4iEL8SLqOn2XwaxVdKajLyk', domain='.jd.com', path='/')
+
+        self.session.cookies.set('__jda', '122270672.1644551026521537184326.1644551026.1644551026.1644551026.1', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdb', '122270672.5.1644551026521537184326|1.1644551026', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdc', '122270672', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdv', '122270672%7Ckong%7Ct_1000077576_%7Ctuiguang%7C5fd35ed82ac9447d9d00d483cd0fa83e%7C1644469429000', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_muid', '1644551026521537184326.1507.1644552019197', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_sid', '1507.51', domain='.jd.com', path='/')
+        self.session.cookies.set('pre_seq', '11', domain='.jd.com', path='/')
+        self.session.cookies.set('pre_session', '682728b4da3d3d8c64d1ceec50de6c74bb0e77cb|5719', domain='.jd.com', path='/')
+        self.session.cookies.set('mid', 'GAlkoM1TuzMxNuR2uQfn4iEL8SLqOn2XwaxVdKajLyk', domain='.jd.com', path='/')
+        self.session.cookies.set('seckill100012043978', '/3S/EnxzPVBAfOAo48Zo/Lx0PBMaLCxs3deRitfKfBYt4xHTvI367HaGkmZJJ509/FKDgklsry4EREJJpm4TPvg0JHc1Ytiypm297tMuAhgqqZ+vIU+KJzm0PSadf4JZAOnGatKJgiHJbSCaFslSu5VCCQEZsgL3W0OMpPwLCekn39dGv2VdJxoBylQy81xOR7zmAAyZjub8bNQ8', domain='.jd.com', path='/')
+        self.session.cookies.set('seckillSid', '', domain='.jd.com', path='/')
+        self.session.cookies.set('seckillSku', '100012043978', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_key', 'app_openAAJiBdtfADDQCYNM_idUmw3bJ27BGYbw06WHwNjz3tukH4A26csGCWY1EBxXE5A2D8UngHbW1WY', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_pin', 'xiacx0087', domain='.jd.com', path='/')
+        self.session.cookies.set('pwdt_id', 'xiacx0087', domain='.jd.com', path='/')
+        self.session.cookies.set('sid', '8b025668946d1e58039706b1c0f39f8w', domain='.jd.com', path='/')
+        self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
+
+        self.session.cookies.set('mba_muid', '164481079880766761924.1514.1644810800615', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_sid', '1514.80', domain='.jd.com', path='/')
+        self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
+        self.session.cookies.set('__jda', '122270672.164481079880766761924.1644810798.1644810798.1644810798.1', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdb', '122270672.1.164481079880766761924|1.1644810798', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdv', '122270672%7Ckong%7Ct_1000077576_%7Ctuiguang%7C5fd35ed82ac9447d9d00d483cd0fa83e%7C1644469429000', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_key', 'app_openAAJiCdE7ADA6UqIHKPqyLO9xTMZ14CnvnufD03bzCP6aiIq9wLrLdjtU1b84lULjJ6vrMqXhH4Y', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_pin', 'xiacx0087', domain='.jd.com', path='/')
+        self.session.cookies.set('pwdt_id', 'xiacx0087', domain='.jd.com', path='/')
+        self.session.cookies.set('sid', 'ab565c024c5cbf3695f20d82c101061w', domain='.jd.com', path='/')
+
     def load_cookies_from_local(self):
         """
         从本地加载Cookie
@@ -81,7 +115,11 @@ class SpiderSession:
             return False
         with open(cookies_file, 'rb') as f:
             local_cookies = pickle.load(f)
+        #logger.info(local_cookies)
         self.set_cookies(local_cookies)
+        #tmp = pickle.dumps(self.session.cookies)
+        #logger.info(pickle.loads(tmp))
+
 
     def save_cookies_to_local(self, cookie_file_name):
         """
@@ -271,7 +309,7 @@ class JdSeckill(object):
 
         # 初始化信息
         self.sku_id = global_config.getRaw('config', 'sku_id')
-        self.seckill_num = 2
+        self.seckill_num = 1
         self.seckill_init_info = dict()
         self.seckill_url = dict()
         self.seckill_order_data = dict()
@@ -418,6 +456,7 @@ class JdSeckill(object):
         """获取商品名称"""
         url = 'https://item.jd.com/{}.html'.format(global_config.getRaw('config', 'sku_id'))
         resp = self.session.get(url).content
+        #logger.info("url%s, resp:%s", url, resp);
         x_data = etree.HTML(resp)
         sku_title = x_data.xpath('/html/head/title/text()')
         return sku_title[0]
@@ -428,6 +467,10 @@ class JdSeckill(object):
         这里返回第一次跳转后的页面url，作为商品的抢购链接
         :return: 商品的抢购链接
         """
+        # 直接返回url
+        seckill_url = 'https://marathon.jd.com/seckillM/seckill.action?skuId=100012043978&num=1&rid={}'.format(str(int(time.time())))
+        return seckill_url
+
         url = 'https://itemko.jd.com/itemShowBtn'
         payload = {
             'callback': 'jQuery{}'.format(random.randint(1000000, 9999999)),
@@ -440,9 +483,13 @@ class JdSeckill(object):
             'Host': 'itemko.jd.com',
             'Referer': 'https://item.jd.com/{}.html'.format(self.sku_id),
         }
-        while True:
+        seckill_url = '';
+        count = 3
+        while count:
             resp = self.session.get(url=url, headers=headers, params=payload)
+            logger.info("url:%s, resp:%s", url, resp);
             resp_json = parse_json(resp.text)
+            logger.info("resp_json:%s", resp_json)
             if resp_json.get('url'):
                 # https://divide.jd.com/user_routing?skuId=8654289&sn=c3f4ececd8461f0e4d7267e96a91e0e0&from=pc
                 router_url = 'https:' + resp_json.get('url')
@@ -451,10 +498,17 @@ class JdSeckill(object):
                     'divide', 'marathon').replace(
                     'user_routing', 'captcha.html')
                 logger.info("抢购链接获取成功: %s", seckill_url)
-                return seckill_url
+                # return seckill_url
             else:
                 logger.info("抢购链接获取失败，稍后自动重试")
                 wait_some_time()
+            count=count-1
+        logger.info("get seckill url:%s", seckill_url);
+        if seckill_url == '':
+            seckill_url = 'https://marathon.jd.com/seckillM/seckill.action?skuId=100012043978&num=1&rid={}'.format(str(int(time.time())))
+            # logger.info("url is null, get default seckill url:%s", seckill_url);
+        return seckill_url
+        # https://marathon.jd.com/seckillM/seckill.action?skuId=100012043978&num=1&rid=1644552010
 
     def request_seckill_url(self):
         """访问商品的抢购链接（用于设置cookie等"""
@@ -468,11 +522,12 @@ class JdSeckill(object):
             'Host': 'marathon.jd.com',
             'Referer': 'https://item.jd.com/{}.html'.format(self.sku_id),
         }
-        self.session.get(
+        resp = self.session.get(
             url=self.seckill_url.get(
                 self.sku_id),
             headers=headers,
             allow_redirects=False)
+        logger.info("url:%s, resp:%s", self.seckill_url.get(self.sku_id), resp);
 
     def request_seckill_checkout_page(self):
         """访问抢购订单结算页面"""
@@ -495,7 +550,7 @@ class JdSeckill(object):
         :return: 初始化信息组成的dict
         """
         logger.info('获取秒杀初始化信息...')
-        url = 'https://marathon.jd.com/seckillnew/orderService/pc/init.action'
+        url = 'https://marathon.jd.com/seckillnew/orderService/init.action'
         data = {
             'sku': self.sku_id,
             'num': self.seckill_num,
@@ -506,12 +561,16 @@ class JdSeckill(object):
             'Host': 'marathon.jd.com',
         }
         resp = self.session.post(url=url, data=data, headers=headers)
+        #logger.info("=================init.action")
+        #logger.info(resp.text)
 
         resp_json = None
         try:
             resp_json = parse_json(resp.text)
         except Exception:
             raise SKException('抢购失败，返回信息:{}'.format(resp.text[0: 128]))
+        #logger.info("-----------------------");
+        #logger.info(resp_json)
 
         return resp_json
 
@@ -523,7 +582,8 @@ class JdSeckill(object):
         # 获取用户秒杀初始化信息
         self.seckill_init_info[self.sku_id] = self._get_seckill_init_info()
         init_info = self.seckill_init_info.get(self.sku_id)
-        default_address = init_info['addressList'][0]  # 默认地址dict
+        #logger.info("init_info:%s", init_info);
+        default_address = init_info['address']  # 默认地址dict
         invoice_info = init_info.get('invoiceInfo', {})  # 默认发票信息dict, 有可能不返回
         token = init_info['token']
         data = {
@@ -553,7 +613,7 @@ class JdSeckill(object):
             'password': global_config.get('account', 'payment_pwd'),
             'codTimeType': 3,
             'paymentType': 4,
-            'areaCode': '',
+            'areaCode': 86,
             'overseas': 0,
             'phone': '',
             'eid': global_config.getRaw('config', 'eid'),
@@ -562,13 +622,15 @@ class JdSeckill(object):
             'pru': ''
         }
 
+        logger.info(data)
+
         return data
 
     def submit_seckill_order(self):
         """提交抢购（秒杀）订单
         :return: 抢购结果 True/False
         """
-        url = 'https://marathon.jd.com/seckillnew/orderService/pc/submitOrder.action'
+        url = 'https://marathon.jd.com/seckillnew/orderService/submitOrder.action'
         payload = {
             'skuId': self.sku_id,
         }
