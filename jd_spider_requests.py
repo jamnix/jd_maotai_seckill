@@ -88,16 +88,16 @@ class SpiderSession:
         self.session.cookies.set('sid', '8b025668946d1e58039706b1c0f39f8w', domain='.jd.com', path='/')
         self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
 
-        self.session.cookies.set('mba_muid', '164481079880766761924.1514.1644810800615', domain='.jd.com', path='/')
-        self.session.cookies.set('mba_sid', '1514.80', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_muid', '16448445305201694101722.1522.1644895960850', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_sid', '1522.38', domain='.jd.com', path='/')
         self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
-        self.session.cookies.set('__jda', '122270672.164481079880766761924.1644810798.1644810798.1644810798.1', domain='.jd.com', path='/')
-        self.session.cookies.set('__jdb', '122270672.1.164481079880766761924|1.1644810798', domain='.jd.com', path='/')
+        self.session.cookies.set('__jda', '122270672.16448445305201694101722.1644844530.1644856682.1644895959.5', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdb', '122270672.1.16448445305201694101722|5.1644895959', domain='.jd.com', path='/')
         self.session.cookies.set('__jdv', '122270672%7Ckong%7Ct_1000077576_%7Ctuiguang%7C5fd35ed82ac9447d9d00d483cd0fa83e%7C1644469429000', domain='.jd.com', path='/')
-        self.session.cookies.set('pt_key', 'app_openAAJiCdE7ADA6UqIHKPqyLO9xTMZ14CnvnufD03bzCP6aiIq9wLrLdjtU1b84lULjJ6vrMqXhH4Y', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_key', 'app_openAAJiClXGADAybE_sVyOEcD07vYsaeKHGtVY8lvMKw0dTVzEyqeZE1NvJu2HTN3N51LKkLJrSl04', domain='.jd.com', path='/')
         self.session.cookies.set('pt_pin', 'xiacx0087', domain='.jd.com', path='/')
         self.session.cookies.set('pwdt_id', 'xiacx0087', domain='.jd.com', path='/')
-        self.session.cookies.set('sid', 'ab565c024c5cbf3695f20d82c101061w', domain='.jd.com', path='/')
+        self.session.cookies.set('sid', '342999a5e3534bd2103bdbf477a9debw', domain='.jd.com', path='/')
 
     def load_cookies_from_local(self):
         """
@@ -363,7 +363,7 @@ class JdSeckill(object):
         self._seckill()
 
     @check_login
-    def seckill_by_proc_pool(self, work_count=5):
+    def seckill_by_proc_pool(self, work_count=30):
         """
         多进程进行抢购
         work_count：进程数量
