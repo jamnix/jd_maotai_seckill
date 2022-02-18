@@ -65,39 +65,53 @@ class SpiderSession:
     def set_cookies(self, cookies):
         self.session.cookies.update(cookies)
 
-
-
-
-        self.session.cookies.set('mid', 'GAlkoM1TuzMxNuR2uQfn4iEL8SLqOn2XwaxVdKajLyk', domain='.jd.com', path='/')
-
-        self.session.cookies.set('__jda', '122270672.1644551026521537184326.1644551026.1644551026.1644551026.1', domain='.jd.com', path='/')
-        self.session.cookies.set('__jdb', '122270672.5.1644551026521537184326|1.1644551026', domain='.jd.com', path='/')
+        self.session.cookies.set('__jda', '122270672.16448445305201694101722.1644844530.1644919039.1644984005.7', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdb', '122270672.1.16448445305201694101722|7.1644984005', domain='.jd.com', path='/')
         self.session.cookies.set('__jdc', '122270672', domain='.jd.com', path='/')
-        self.session.cookies.set('__jdv', '122270672%7Ckong%7Ct_1000077576_%7Ctuiguang%7C5fd35ed82ac9447d9d00d483cd0fa83e%7C1644469429000', domain='.jd.com', path='/')
-        self.session.cookies.set('mba_muid', '1644551026521537184326.1507.1644552019197', domain='.jd.com', path='/')
-        self.session.cookies.set('mba_sid', '1507.51', domain='.jd.com', path='/')
-        self.session.cookies.set('pre_seq', '11', domain='.jd.com', path='/')
-        self.session.cookies.set('pre_session', '682728b4da3d3d8c64d1ceec50de6c74bb0e77cb|5719', domain='.jd.com', path='/')
-        self.session.cookies.set('mid', 'GAlkoM1TuzMxNuR2uQfn4iEL8SLqOn2XwaxVdKajLyk', domain='.jd.com', path='/')
-        self.session.cookies.set('seckill100012043978', '/3S/EnxzPVBAfOAo48Zo/Lx0PBMaLCxs3deRitfKfBYt4xHTvI367HaGkmZJJ509/FKDgklsry4EREJJpm4TPvg0JHc1Ytiypm297tMuAhgqqZ+vIU+KJzm0PSadf4JZAOnGatKJgiHJbSCaFslSu5VCCQEZsgL3W0OMpPwLCekn39dGv2VdJxoBylQy81xOR7zmAAyZjub8bNQ8', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdv', '122270672%7Ckong%7Ct_1000170136%7Ctuiguang%7Cnotset%7C1644897433446', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_muid', '16448445305201694101722.1529.1644984005569', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_sid', '1529.8', domain='.jd.com', path='/')
+        self.session.cookies.set('pre_seq', '0', domain='.jd.com', path='/')
+        self.session.cookies.set('pre_session', '682728b4da3d3d8c64d1ceec50de6c74bb0e77cb|5793', domain='.jd.com', path='/')
+        self.session.cookies.set('mid', 'sCgE1YSmh_QcrgWMcj_X0TsOscYU_Jc-PSWFdTWhnsg', domain='.jd.com', path='/')
+        self.session.cookies.set('seckill100012043978', 'd/mnMiTI9/oOt0fhnxeHxXpXV9n3ap82WfuhcUIP/7Pm7nG24p8BMeaMDFd8DNC1sGKtUdCWWxMvJ723uzeQ4IJFCHkr5mtclSbvwe9e2fWHMnAatRYVHtxwJbWgBETBCXRDvNsr5K+RIOKmIHbgEB5PqvLWDlavIvP/ROQHTgN85SmGL2Kfbvz4BP703TSyOHhC+qa00VdNhXum', domain='.jd.com', path='/')
         self.session.cookies.set('seckillSid', '', domain='.jd.com', path='/')
         self.session.cookies.set('seckillSku', '100012043978', domain='.jd.com', path='/')
-        self.session.cookies.set('pt_key', 'app_openAAJiBdtfADDQCYNM_idUmw3bJ27BGYbw06WHwNjz3tukH4A26csGCWY1EBxXE5A2D8UngHbW1WY', domain='.jd.com', path='/')
-        self.session.cookies.set('pt_pin', 'xiacx0087', domain='.jd.com', path='/')
-        self.session.cookies.set('pwdt_id', 'xiacx0087', domain='.jd.com', path='/')
-        self.session.cookies.set('sid', '8b025668946d1e58039706b1c0f39f8w', domain='.jd.com', path='/')
-        self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
-
-        self.session.cookies.set('mba_muid', '16448445305201694101722.1522.1644895960850', domain='.jd.com', path='/')
-        self.session.cookies.set('mba_sid', '1522.38', domain='.jd.com', path='/')
-        self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
-        self.session.cookies.set('__jda', '122270672.16448445305201694101722.1644844530.1644856682.1644895959.5', domain='.jd.com', path='/')
-        self.session.cookies.set('__jdb', '122270672.1.16448445305201694101722|5.1644895959', domain='.jd.com', path='/')
-        self.session.cookies.set('__jdv', '122270672%7Ckong%7Ct_1000077576_%7Ctuiguang%7C5fd35ed82ac9447d9d00d483cd0fa83e%7C1644469429000', domain='.jd.com', path='/')
         self.session.cookies.set('pt_key', 'app_openAAJiClXGADAybE_sVyOEcD07vYsaeKHGtVY8lvMKw0dTVzEyqeZE1NvJu2HTN3N51LKkLJrSl04', domain='.jd.com', path='/')
         self.session.cookies.set('pt_pin', 'xiacx0087', domain='.jd.com', path='/')
         self.session.cookies.set('pwdt_id', 'xiacx0087', domain='.jd.com', path='/')
         self.session.cookies.set('sid', '342999a5e3534bd2103bdbf477a9debw', domain='.jd.com', path='/')
+        self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANRnNSttCE5TUBIASBpEQw1dW1VbHB8LbG9WUlxeT1dXEgNJEEB7XlVdXhRKFx9sZRRUVVNKUw4ZCysSFHtdVV9dDE4UAm5vNWRYWyVXBx0HGBoYS1w6XTM4SBczblcCXV5eSF1WHldLEEVJCF0MWg0eF1E7M1dQXA0fU1cdB0hBER9bUgwOOHseAl9hBVBfXkhQBBMKGCIgSm1Vblw4CnkDbmIFXFVfSBkCEgEdERkYWAEOX11JQgo9YAABXQofAFcfA05GFxlbUQ0OCR8RBT00NVVtWA', domain='.jd.com', path='/')
+
+        self.session.cookies.set('unpl', 'JF8EAJhnNSttXBwBBx9WThsTGw9cW1gOHh9WbmZQUVRaGQEETFISEER7XlVdXhRKFB9vZhRUX1NKVg4eCisiEEpcVV9bDk8RBF9XNVddaEpkBRwHGRsZT19UWFgOShECaGQAVltRe2QCGwsrIiBKbVVuWA9OEwBtZAZUbRMlVUgbBR4QGUJZVl5bDU0WBW5gBlFfXkJkBxsCGRQgSA%7CJF8EANJnNSttXEgBUB8CHRREGA5dW10OSkRXbGBVBg5eGQBRSVZIRhF7XlVdXhRKFB9vYRRUXVNKUw4bASsSFHtdVV9dDUISA25iNWRdWSU6ARhsS1NRe15Ublw4TB4AaWQMB1gNG1ZQGVcSQBdOCFQMCVwZEwI6MwIGW10YBwRPBB1AQ3ttXV9tCEoWAm9iDVFcXExVNSsDKxMgSm0CMF0JShYDbGQMU10VTF0GHQESQRUeDVYLX11CRQRqMgUGCQwZUAROVhxAFk4OB18JDk1FUF9mNVQ', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_key', 'app_openAAJiDJZNADAtaqFo3s2-6BOLw46V_L5V_tJ5NwhFyYikUt4qDUZMSdNAYdmI0MCB6V68Plpp7Tg', domain='.jd.com', path='/')
+        self.session.cookies.set('pt_pin', 'xiacx0087', domain='.jd.com', path='/')
+        self.session.cookies.set('pwdt_id', 'xiacx0087', domain='.jd.com', path='/')
+        self.session.cookies.set('sid', '87eb4e917937bd33607399d29196604w', domain='.jd.com', path='/')
+        self.session.cookies.set('mba_muid', '16449920938471231263600.1532.1645070625235', domain='.jd.com', path='/')
+        self.session.cookies.set('__jda', '123122771.16449920938471231263600.1644992094.1645067009.1645070623.5', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdv', '123122771%7Ckong%7Ct_1000170136%7Ctuiguang%7Cnotset%7C1644897433446', domain='.jd.com', path='/')
+        self.session.cookies.set('UUID', 'EC7D636D-4178-40F8-A090-E03DBB7C46E0', domain='.jd.com', path='/')
+        self.session.cookies.set('deviceId', '682728b4da3d3d8c64d1ceec50de6c74bb0e77cb', domain='.jd.com', path='/')
+        self.session.cookies.set('deviceType', 'iPhone13,3', domain='.jd.com', path='/')
+        self.session.cookies.set('jdpay_appId', 'com.360buy.jdmobile', domain='.jd.com', path='/')
+        self.session.cookies.set('jdpay_appVersion', '167968', domain='.jd.com', path='/')
+        self.session.cookies.set('jdpay_browserId', 'pay', domain='.jd.com', path='/')
+        self.session.cookies.set('jdpay_sdkVersion', '4.00.25.00', domain='.jd.com', path='/')
+        self.session.cookies.set('moduleBuildVersion', '6', domain='.jd.com', path='/')
+        self.session.cookies.set('moduleName', 'JDPaySDK', domain='.jd.com', path='/')
+        self.session.cookies.set('moduleVersion', '4.00.25.00', domain='.jd.com', path='/')
+        self.session.cookies.set('osPlatform', 'iOS', domain='.jd.com', path='/')
+        self.session.cookies.set('3AB9D23F7A4B3C9B', 'C5G477FCYUGXC2A5W7LZFXJL66BZOVPVRO6VKQZG2P7RKMA7Z4OOZLIN2HL2UKGCOZAL367W5765AJZUSMD5CTZYCM', domain='.jd.com', path='/')
+        self.session.cookies.set('_gia_s_e_joint', '{"eid":"C5G477FCYUGXC2A5W7LZFXJL66BZOVPVRO6VKQZG2P7RKMA7Z4OOZLIN2HL2UKGCOZAL367W5765AJZUSMD5CTZYCM","ma":"","im":"","os":"iOS","osv":"","ip":"14.150.171.203","apid":"jdapp","ia":"","uu":"","cv":"10.4.0","nt":"UNKNOW","at":"1"}', domain='.jd.com', path='/')
+        self.session.cookies.set('_gia_s_local_fingerprint', '65b772dc43d963b9c775a8146237f262', domain='.jd.com', path='/')
+        self.session.cookies.set('__jdu', '16449920938471231263600', domain='.jd.com', path='/')
+        self.session.cookies.set('qd_fs', '1644992093756', domain='.jd.com', path='/')
+        self.session.cookies.set('qd_ls', '1644992093756', domain='.jd.com', path='/')
+        self.session.cookies.set('qd_sq', '1', domain='.jd.com', path='/')
+        self.session.cookies.set('qd_ts', '1644992093756', domain='.jd.com', path='/')
+        self.session.cookies.set('qd_uid', 'cb9e13cc-103b-40f4-bb09-3348024deadb', domain='.jd.com', path='/')
+
 
     def load_cookies_from_local(self):
         """
@@ -516,7 +530,7 @@ class JdSeckill(object):
         logger.info('商品名称:{}'.format(self.get_sku_title()))
         self.timers.start()
         self.seckill_url[self.sku_id] = self.get_seckill_url()
-        logger.info('访问商品的抢购连接...')
+        #logger.info('访问商品的抢购连接...')
         headers = {
             'User-Agent': self.user_agent,
             'Host': 'marathon.jd.com',
@@ -531,7 +545,7 @@ class JdSeckill(object):
 
     def request_seckill_checkout_page(self):
         """访问抢购订单结算页面"""
-        logger.info('访问抢购订单结算页面...')
+        #logger.info('访问抢购订单结算页面...')
         url = 'https://marathon.jd.com/seckill/seckill.action'
         payload = {
             'skuId': self.sku_id,
@@ -549,7 +563,7 @@ class JdSeckill(object):
         """获取秒杀初始化信息（包括：地址，发票，token）
         :return: 初始化信息组成的dict
         """
-        logger.info('获取秒杀初始化信息...')
+        #logger.info('获取秒杀初始化信息...')
         url = 'https://marathon.jd.com/seckillnew/orderService/init.action'
         data = {
             'sku': self.sku_id,
@@ -578,7 +592,7 @@ class JdSeckill(object):
         """生成提交抢购订单所需的请求体参数
         :return: 请求体参数组成的dict
         """
-        logger.info('生成提交抢购订单所需参数...')
+        #logger.info('生成提交抢购订单所需参数...')
         # 获取用户秒杀初始化信息
         self.seckill_init_info[self.sku_id] = self._get_seckill_init_info()
         init_info = self.seckill_init_info.get(self.sku_id)

@@ -119,6 +119,8 @@
 
 ## 打赏
 不用再打赏了，抢到茅台的同学请保持这份喜悦，没抢到的继续加油 :)  
+## crontab
+59 11 * * * /bin/bash /home/harleyhuang/jd_maotai_seckill/crontab_sh >> /home/harleyhuang/jd_maotai_seckill/crontab_log
 
 ## 感谢
 ##### 非常感谢原作者 https://github.com/zhou-xiaojun/jd_mask 提供的代码

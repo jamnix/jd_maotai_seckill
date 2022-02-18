@@ -1,0 +1,11 @@
+cd /home/harleyhuang/jd_maotai_seckill
+date
+sleep 40
+date
+/home/harleyhuang/Python/bin/python3 main.py &
+date
+echo "begin sleep"
+sleep 40
+date
+echo "end sleep"
+killall python3
