@@ -176,6 +176,8 @@ class QrLogin:
         :return:
         """
         self.is_login = self._validate_cookies()
+        # 总是为true
+        self.is_login = True
 
     def _validate_cookies(self):
         """
